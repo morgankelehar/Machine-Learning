@@ -1,13 +1,6 @@
 # Using Neural Networks to Predict Political Party
 
-This study was conducted in the ITC 535 Machine Learning cours at Missouri State University. Data set, framework, and teachings from Dr. Randall Sexton was utilized in this project.
-
-## Data Set
-[Political Party Data.xlsx](https://github.com/user-attachments/files/17655089/Political.Party.Data.xlsx)
-
-## Results
-[Political Party Results.xlsx](https://github.com/user-attachments/files/17655088/Political.Party.Results.xlsx)
-
+This study was conducted while in the ITC 535 Machine Learning course at Missouri State University. Data set, framework, and teachings from Dr. Randall Sexton was utilized in this project.
 
 ## Analysis
 
@@ -36,11 +29,11 @@ One characteristic of the NNSOA is to only utilize the input weights that are th
 
 Table 3 shows the number of hidden nodes that were used during the 10 runs to achieve the desired solution. Run 1 and Run 2 used the highest number of hidden nodes with 8 and 9 hidden nodes used respectively. Run 9 and Run 10 used the lowest number of hidden nodes, both using 4. The average of hidden nodes used across all 10 runs was 6.1.
 
-Table 4 looks at the input weights that were not equal to zero. This means that these weights were used and did contribute a significant amount to the solution. Run 1 used the most nonzero input weights at 46, while run 8 used the least at 17. The average number of nonzero input weights for all 10 runs was 29.3 nonzero weights. 
-
 #### Table 3
 Optimal hidden nodes
 ![Table 3](https://github.com/user-attachments/assets/ddb9ab6f-3fa3-4da8-b2d8-8281b6124670)
+
+Table 4 looks at the input weights that were not equal to zero. This means that these weights were used and did contribute a significant amount to the solution. Run 1 used the most nonzero input weights at 46, while run 8 used the least at 17. The average number of nonzero input weights for all 10 runs was 29.3 nonzero weights. 
 
 #### Table 4
 Nonzero input weights
@@ -69,3 +62,9 @@ Sensitivity Analysis
 ![Graph 1](https://github.com/user-attachments/assets/a5300a25-1549-46c7-8390-bf56a1e0cb89)
 
 Overall, though the testing and training conducted with the 12 inputs with 500 observations produced good results. Limitations can arise through future testing and research conducted and even if the number of parties in the output is expanded.
+
+## Data Set
+[Political Party Data.xlsx](https://github.com/user-attachments/files/17655089/Political.Party.Data.xlsx)
+
+## Results
+[Political Party Results.xlsx](https://github.com/user-attachments/files/17655088/Political.Party.Results.xlsx)
